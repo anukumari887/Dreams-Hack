@@ -1,3 +1,3 @@
 # Dreams-Hack
-PRISM :- predicitive risk and income shield for mobility workers jhdgfjkd
+PRISM :- predicitive risk and income shield for mobility workers
 

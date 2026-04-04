@@ -104,7 +104,7 @@ PRISM prevents fake claims using:
 
 ---
 
-##  Insurance Model (IMPORTANT ADDITION)
+##  Insurance Model
 
 ###  Premium Model
 
@@ -132,7 +132,7 @@ PRISM covers **income loss caused by verified external disruptions**:
 
 ---
 
-###  Exclusions (Not Covered)
+###  Exclusions 
 
 To ensure fairness and prevent misuse:
 
@@ -164,7 +164,7 @@ Example:
 
 ---
 
-##  Financial Viability (NEW SECTION)
+##  Financial Viability 
 
 PRISM follows a **risk pooling model**:
 

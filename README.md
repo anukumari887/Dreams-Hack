@@ -1,73 +1,341 @@
-# Welcome to your Lovable project
+# PRISM
 
-## Project info
+### Predictive Risk & Income Shield for Mobility Workers
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Tagline:** Insurance that protects your income *before* the storm hits.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+##  Overview
 
-**Use Lovable**
+PRISM is an AI-powered **predictive parametric insurance platform** designed for gig workers (like food delivery partners) to protect their income from external disruptions such as:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* Heavy rain
+* Air pollution
+* Flooding
+* Curfews
+* Natural disasters
 
-Changes made via Lovable will be committed automatically to this repo.
+Unlike traditional insurance (which reacts *after* damage), PRISM **predicts disruptions in advance** and provides **proactive protection and compensation**.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Core Idea
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+PRISM introduces a **Predictive Income Protection System**:
 
-Follow these steps:
+1. Predicts risks before they happen
+2. Alerts workers early
+3. Adjusts insurance coverage dynamically
+4. Automatically compensates income loss
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Compensation Formula
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+Compensation = Expected Income − Actual Income
 ```
 
-**Edit a file directly in GitHub**
+This ensures **fair and personalized payouts** for each worker.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+##  Key Features
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 1. Hyper-Local Disruption Engine
 
-## What technologies are used for this project?
+* Predicts risks at **micro-zone level**
+* Uses:
 
-This project is built with:
+  * Weather data
+  * AQI (Air Quality Index)
+  * Traffic conditions
+  * Historical disruption zones
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+ Result: More accurate than city-level predictions
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### 2. Income Prediction AI
 
-## Can I connect a custom domain to my Lovable project?
+* Predicts daily earnings using past activity
+* Ensures **realistic compensation**
+* Adapts per worker
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 3. Worker Digital Twin
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Each worker has an AI profile that learns:
+
+* Work hours
+* Delivery zones
+* Earning behavior
+
+ Used for:
+
+* Risk prediction
+* Premium calculation
+* Fraud detection
+
+---
+
+### 4. Early Disruption Alerts
+
+Workers receive alerts like:
+
+* “Heavy rain expected in your area at 7 PM”
+
+ Helps them:
+
+* Plan work
+* Avoid unsafe zones
+* Reduce risk
+
+---
+
+### 5. Intelligent Fraud Detection
+
+PRISM prevents fake claims using:
+
+* Behavioral pattern analysis
+* Sensor data (movement vs GPS)
+* API validation (weather, AQI)
+* Crowd verification (nearby workers)
+
+---
+
+##  Insurance Model (IMPORTANT ADDITION)
+
+###  Premium Model
+
+PRISM uses **affordable subscription-based pricing**:
+
+* ₹99 – ₹149 per week
+* Dynamic pricing based on risk level
+
+Example:
+
+* Low risk → lower premium
+* High risk → slightly higher premium
+
+---
+
+###  Coverage
+
+PRISM covers **income loss caused by verified external disruptions**:
+
+* Heavy rainfall
+* Air pollution spikes
+* Flooding
+* Government restrictions
+* Natural calamities
+
+---
+
+###  Exclusions (Not Covered)
+
+To ensure fairness and prevent misuse:
+
+* Worker chooses not to work
+* Personal illness
+* Internet/network issues
+* App account bans
+* Fake inactivity
+
+---
+
+###  Parametric Trigger System
+
+Payout is triggered only when:
+
+```
+(Disruption Condition TRUE)
+AND
+(Income Drop Detected)
+```
+
+Example:
+
+* Rainfall > threshold
+* AQI > 300
+* Flood alert issued
+
+ Ensures **objective and automatic payouts**
+
+---
+
+##  Financial Viability (NEW SECTION)
+
+PRISM follows a **risk pooling model**:
+
+### Example Scenario:
+
+* 1000 workers
+* ₹100/week premium
+
+**Total Revenue:**
+
+```
+₹1,00,000/week
+```
+
+**Expected Claims:**
+
+* 20% workers claim
+* Avg payout ₹300
+
+```
+₹60,000 payout
+```
+
+**Estimated Profit:**
+
+```
+₹40,000/week
+```
+
+ Ensures **sustainability and scalability**
+
+---
+
+##  Trust & Anti-Fraud System
+
+PRISM uses a **Multi-Signal Trust Score (0–100)**:
+
+| Score Range | Action        |
+| ----------- | ------------- |
+| 80–100      | Approved      |
+| 50–80       | Manual Review |
+| <50         | Rejected      |
+
+### Signals Used:
+
+* Behavioral AI
+* Sensor data (accelerometer)
+* Weather/API validation
+* Crowd data
+* Network consistency
+
+ Prevents GPS spoofing and fake claims
+
+---
+
+##  Demo Flow
+
+1. Worker registers
+2. AI builds profile
+3. System predicts disruption
+4. Worker gets alert
+5. Income drops due to event
+6. AI calculates compensation
+7. Instant payout triggered
+
+---
+
+##  User Persona
+
+**Name:** Arjun Kumar
+**Age:** 26
+**Occupation:** Food Delivery Partner
+
+### Earnings:
+
+* ₹500 – ₹850 per day
+* ₹3,500 – ₹5,000 per week
+
+### Problems:
+
+* Rain slows deliveries
+* Heat causes fatigue
+* Pollution affects health
+* Flooding stops work
+
+ Needs **income stability + safety**
+
+---
+
+##  Technology Stack
+
+### Frontend
+
+* React / Next.js
+* HTML, CSS, JavaScript
+
+### Backend
+
+* FastAPI (Python)
+* REST APIs
+
+### AI/ML
+
+* Scikit-learn
+* Pandas
+* Prophet
+
+### Database
+
+* PostgreSQL
+
+### External APIs
+
+* Weather API
+* AQI API
+* Maps API
+* Government alerts
+
+---
+
+##  Dashboards
+
+### Worker Dashboard
+
+* Income protection status
+* Risk alerts
+* Claims history
+
+### Admin Dashboard
+
+* Active users
+* Risk heatmaps
+* Fraud alerts
+* Total payouts
+
+---
+
+##  Future Enhancements
+
+* Mobile app
+* Real-time payments (UPI integration)
+* Blockchain claim transparency
+* Advanced AI forecasting
+* Integration with Swiggy / Zomato
+
+---
+
+##  Regulatory Consideration
+
+PRISM can operate as:
+
+* Embedded insurance product
+* Partner with licensed insurers
+
+ Ensures compliance with insurance regulations
+
+---
+
+##  Conclusion
+
+PRISM combines:
+
+* AI prediction
+* Parametric insurance
+* Real-time data
+
+To deliver:
+ **Proactive income protection for gig workers**
+
+---
+
+##  License
+
+This project is created for **innovation, research, and hackathon demonstration purposes**.
